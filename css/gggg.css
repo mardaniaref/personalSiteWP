@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'ANafis';
+    src: url('../font/fa_nafis/ANafis.eot');
+    src: url('../font/fa_nafis/ANafis.eot?#iefix') format('embedded-opentype'), url('../font/fa_nafis/ANafis.woff') format('woff'), url('../font/fa_nafis/ANafis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Iranian_Sans';
+    src: url('../font/A-Iranian-Sans/Iranian_Sans.eot');
+    src: url('../font/A-Iranian-Sans/Iranian_Sans.eot?#iefix') format('embedded-opentype'), url('../font/A-Iranian-Sans/Iranian_Sans.woff') format('woff'), url('../font/A-Iranian-Sans/Iranian_Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Questrial-Regular';
+    src: url('../font/Questrial-Regular/Questrial-Regular.eot');
+    src: url('../font/Questrial-Regular/Questrial-Regular.eot?#iefix') format('embedded-opentype'), url('../font/Questrial-Regular/Questrial-Regular.woff') format('woff'), url('../fontQuestrial-Regular/Questrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    background-color: #008080;
+    direction: rtl;
+
+}
+#top_menu{
+    float: right;
+    width: 100%;
+    height: 60px;
+    font-family: 'ANafis';
+    border:  solid;
+    margin: 0px 0px 20px 0px;   
+    }
+
+li{
+    display: inline;
+    margin-left: 15px;
+  margin: 100px 15px 0px 10px;
+   
+}
+
+li a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #008080; 
+ 
+    font-size: 1.1vw;
+    margin-top: 0px;   
+}
+
+li :hover{
+    text-decoration: none;
+    color: #008080 ;
+    background-color: antiquewhite ;    
+}
